@@ -5,6 +5,8 @@ import LoadMore from './components/load-more/LoadMore';
 import RandomColor from './components/random-color/RandomColor';
 import StarRating from './components/star-rating/StarRating';
 import TreeView from './components/tree-view/TreeView';
+import { menus } from './components/tree-view/data';
+import QRCodeGenerator from './components/qr-code-generator/QRCodeGenerator';
 
 const App = () => {
   return (
@@ -24,7 +26,9 @@ const App = () => {
 
     {/* <LoadMore/> */}
 
-    <TreeView/>
+    {/* <TreeView menus={menus}/> */}
+
+    <QRCodeGenerator/>
 
     </div>
   )
