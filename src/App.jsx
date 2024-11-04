@@ -7,6 +7,7 @@ import StarRating from './components/star-rating/StarRating';
 import TreeView from './components/tree-view/TreeView';
 import { menus } from './components/tree-view/data';
 import QRCodeGenerator from './components/qr-code-generator/QRCodeGenerator';
+import LightDarkMode from './components/light-dark-mode/LightDarkMode';
 
 const App = () => {
   return (
@@ -28,7 +29,9 @@ const App = () => {
 
     {/* <TreeView menus={menus}/> */}
 
-    <QRCodeGenerator/>
+    {/* <QRCodeGenerator/> */}
+
+    <LightDarkMode/>
 
     </div>
   )
