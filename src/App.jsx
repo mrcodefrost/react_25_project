@@ -8,6 +8,7 @@ import TreeView from './components/tree-view/TreeView';
 import { menus } from './components/tree-view/data';
 import QRCodeGenerator from './components/qr-code-generator/QRCodeGenerator';
 import LightDarkMode from './components/light-dark-mode/LightDarkMode';
+import ScrollIndicator from './components/scroll-indicator/ScrollIndicator';
 
 const App = () => {
   return (
@@ -31,7 +32,9 @@ const App = () => {
 
     {/* <QRCodeGenerator/> */}
 
-    <LightDarkMode/>
+    {/* <LightDarkMode/> */}
+
+    <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
 
     </div>
   )
