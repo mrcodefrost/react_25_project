@@ -9,6 +9,8 @@ import { menus } from './components/tree-view/data';
 import QRCodeGenerator from './components/qr-code-generator/QRCodeGenerator';
 import LightDarkMode from './components/light-dark-mode/LightDarkMode';
 import ScrollIndicator from './components/scroll-indicator/ScrollIndicator';
+import Modal from './components/custom-modal-popup/Modal';
+import ModalTest from './components/custom-modal-popup/ModalTest';
 
 const App = () => {
   return (
@@ -34,7 +36,9 @@ const App = () => {
 
     {/* <LightDarkMode/> */}
 
-    <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
+    {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
+
+    <ModalTest/>
 
     </div>
   )
