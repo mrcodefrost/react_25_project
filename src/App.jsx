@@ -11,6 +11,8 @@ import LightDarkMode from './components/light-dark-mode/LightDarkMode';
 import ScrollIndicator from './components/scroll-indicator/ScrollIndicator';
 import Modal from './components/custom-modal-popup/Modal';
 import ModalTest from './components/custom-modal-popup/ModalTest';
+import GithubProfileFinder from './components/github-profile-finder/GithubProfileFinder';
+import SearchAutocomplete from './components/search-autocomplete/SearchAutocomplete';
 
 const App = () => {
   return (
@@ -38,7 +40,11 @@ const App = () => {
 
     {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
 
-    <ModalTest/>
+    {/* <ModalTest/> */}
+
+    {/* <GithubProfileFinder/> */}
+
+    <SearchAutocomplete/>
 
     </div>
   )
