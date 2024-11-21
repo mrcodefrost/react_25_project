@@ -13,6 +13,7 @@ import Modal from './components/custom-modal-popup/Modal';
 import ModalTest from './components/custom-modal-popup/ModalTest';
 import GithubProfileFinder from './components/github-profile-finder/GithubProfileFinder';
 import SearchAutocomplete from './components/search-autocomplete/SearchAutocomplete';
+import TicTacToe from './components/tic-tac-toe/TicTacToe';
 
 const App = () => {
   return (
@@ -44,7 +45,9 @@ const App = () => {
 
     {/* <GithubProfileFinder/> */}
 
-    <SearchAutocomplete/>
+    {/* <SearchAutocomplete/> */}
+
+    <TicTacToe/>
 
     </div>
   )
