@@ -14,40 +14,47 @@ import ModalTest from './components/custom-modal-popup/ModalTest';
 import GithubProfileFinder from './components/github-profile-finder/GithubProfileFinder';
 import SearchAutocomplete from './components/search-autocomplete/SearchAutocomplete';
 import TicTacToe from './components/tic-tac-toe/TicTacToe';
+import FeatureFlags from './components/feature-flags/FeatureFlag';
+import FeatureFlagGlobalState from './components/feature-flags/context/ContextFeatureFlag';
 
 const App = () => {
   return (
     <div className="App">
 
-    {/* <Accordion/> */}
+      {/* <Accordion/> */}
 
-    {/* <RandomColor/> */}
+      {/* <RandomColor/> */}
 
-    {/* <StarRating noOfStars={5}/> */}
+      {/* <StarRating noOfStars={5}/> */}
 
-    {/* <ImageSlider
+      {/* <ImageSlider
       url={'https://picsum.photos/v2/list'}
       page={"1"}
       limit={"10"}
     /> */}
 
-    {/* <LoadMore/> */}
+      {/* <LoadMore/> */}
 
-    {/* <TreeView menus={menus}/> */}
+      {/* <TreeView menus={menus}/> */}
 
-    {/* <QRCodeGenerator/> */}
+      {/* <QRCodeGenerator/> */}
 
-    {/* <LightDarkMode/> */}
+      {/* <LightDarkMode/> */}
 
-    {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
+      {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} /> */}
 
-    {/* <ModalTest/> */}
+      {/* <ModalTest/> */}
 
-    {/* <GithubProfileFinder/> */}
+      {/* <GithubProfileFinder/> */}
 
-    {/* <SearchAutocomplete/> */}
+      {/* <SearchAutocomplete/> */}
 
-    <TicTacToe/>
+      {/* <TicTacToe/> */}
+
+      <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState>
+
 
     </div>
   )
