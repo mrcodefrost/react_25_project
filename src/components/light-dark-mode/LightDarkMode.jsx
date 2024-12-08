@@ -20,4 +20,4 @@ const LightDarkMode = () => {
     </div>
   )
 }
-export default LightDarkMode
+export default LightDarkMode;
