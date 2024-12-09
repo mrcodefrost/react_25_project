@@ -16,6 +16,7 @@ import SearchAutocomplete from './components/search-autocomplete/SearchAutocompl
 import TicTacToe from './components/tic-tac-toe/TicTacToe';
 import FeatureFlags from './components/feature-flags/FeatureFlag';
 import FeatureFlagGlobalState from './components/feature-flags/context/ContextFeatureFlag';
+import UseFetchTest from './components/use-fetch-hook/useFetchTest';
 
 const App = () => {
   return (
@@ -51,9 +52,11 @@ const App = () => {
 
       {/* <TicTacToe/> */}
 
-      <FeatureFlagGlobalState>
+      {/* <FeatureFlagGlobalState>
         <FeatureFlags />
-      </FeatureFlagGlobalState>
+      </FeatureFlagGlobalState> */}
+
+      <UseFetchTest/>
 
 
     </div>
